@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> <!------Подключение JQUERY--------->
+    <title>МосТрактор</title>
+    
+
+</head>
+<body>
+    <div class="container_menu">
+        <div class="left-side">
+            <img src="IMG/ECO.png">
+        </div>
+
+        <div class="center-side">
+            <ul>
+                <li><a href="MAIN.html">Главная</a></li>
+                <li><a href="DOSTAVKA_I_OPLATA.html">Доставка и оплата</a></li>     <!--Верхняя панель--->
+                <li><a href="O_MAGAZINE.html">О нас</a></li>
+                <li><a href="KONTAKTY.html">Контакты</a></li>
+            </ul>
+            
+        </div>
+
+        <button class="cart" id="cart">    <!--Корзина--->
+          <img class="cart__image" src="https://grizly.club/uploads/posts/2023-08/thumbs/1693127813_grizly-club-p-kartinki-ikonka-magazina-bez-fona-10.png" alt="Cart" srcset="" width="115"
+          height="115"/>
+          <div class="cart__num" id="cart_num">0</div>
+        </button>
+
+    </div>
+    <!---------------------------------------------------------->
+  </section>
+  
+  
+  <div class="popup">                  <!--Наполнение корзины--->
+    <div class="popup__container" id="popup_container">
+      <div class="popup__item">
+        <h1 class="popup__title">Корзина</h1>
+      </div>
+      <div class="popup__item" id="popup_product_list">
+        <div class="popup__product">
+          <div class="popup__product-wrap">
+            <img
+              src="https://thumb.tildacdn.com/tild6139-3430-4034-b635-333463303239/-/format/webp/__.jpg"
+              alt="Apple IPhone 14 Pro Max 256Gb"
+              class="popup__product-image"
+            />
+            <h2 class="popup__product-title">
+              ххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххххх
+            </h2>
+          </div>
+          <div class="popup__product-wrap">
+            <div class="popup__product-price">135000</div>
+            <button class="popup__product-delete">&#10006;</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="popup__item">
+        <div class="popup__cost">
+          <h2 class="popup__cost-title">Итого:</h2>
+          <output class="popup__cost-value" id="popup_cost">0</output>
+        </div>
+        
+      </div>
+      <button class="popup__close" id="popup_close">&#10006;</button>
+    <div class="popup__zakaz">
+      <button class="popup__zakazatb" onclick="alert('Заказ оформлен')" id="">Оформить заказ</button>
+    </div>
+    </div>
+  </div>  <!--
+      Слайдер
+      ================================================== -->
+
+    
+          <div class="switch-wrap">
+        <div id="switch" class="hover-target">
+          <div id="circle"></div>
+        </div>
+      </div> 
+      
+      <!-- Page cursor
+      ================================================== -->
+      
+          <div class='cursor' id="cursor"></div>
+          <div class='cursor2' id="cursor2"></div>
+          <div class='cursor3' id="cursor3"></div> 
+  
+      <div class="section">
+        <ul class="case-study-wrapper">
+          <li class="case-study-name">                            	
+            <a href="#" class="hover-target">техника</a>
+          </li>
+          <li class="case-study-name">                                         	
+            <a href="#" class="hover-target">сервис</a>
+          </li>
+          <li class="case-study-name">                                        	
+            <a href="#" class="hover-target">партнёры</a>
+          </li>
+          <li class="case-study-name">                                         	
+            <a href="#" class="hover-target">команда</a>
+          </li>
+        </ul>
+        <ul class="case-study-images">
+          <li>
+            <div class="img-hero-background">
+              <span>
+                <img src="https://agroprof.com/uploads/2021/10/06ea90da-c0f1-465b-8993-b28c10e25593.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://kronos5.ru/upload/ammina.optimizer/jpg-webp/q80/upload/iblock/fdf/fdf4f91de3deef033aceaac0109763db.webp" alt="">
+              </span> 
+              <span>
+                <img src="https://istokrtps.ru/catalog_images/SHT/Almaz/PERESVET_PPO5.6.35/1434553.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://oooaprel.ru/upload/iblock/06e/lnzzvva1rp32j0qdt3jxa1km881p0k4j.jpg" alt="">
+              </span> 
+            </div> 
+            <div class="hero-number-back">01</div> 
+            <div class="hero-number">01</div> 
+            <div class="hero-number-fixed">04</div> 
+          </li>
+          <li>
+            <div class="img-hero-background">
+              <span>
+                <img src="https://www.asm-altay.ru/images/info/serv5-1.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://amacoint.com/wp-content/uploads/2017/03/11-1.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://agromer-storage-public.storage.yandexcloud.net/st/images/2166/offers/966bd2d9-5221-4ab3-9abb-74e13f59d08c/8c1175347db9348a0e05af4b06b2f8ac.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://yugprom.ru/images/services/attendance/D75_7461%20(1).jpg" alt="">
+              </span> 
+            </div> 
+            <div class="hero-number-back">02</div> 
+            <div class="hero-number">02</div>  
+          </li>
+          <li>
+            <div class="img-hero-background">
+              <span>
+                <img src="https://agrotexnopark.ru/assets/images/logo-proizvoditel/ca85b8b1-266f-4b04-a02a-03f856c526b1.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://agrotexnopark.ru/assets/images/logo-proizvoditel/qqwwapmlo31svqsnuum0elrklb3kdjmc%201.png" alt="">
+              </span> 
+              <span>
+                <img src="https://agrotexnopark.ru/assets/images/logo-proizvoditel/Fratelli%20Pedrotti.png" alt="">
+              </span> 
+              <span>
+                <img src="https://agrotexnopark.ru/assets/images/logo-proizvoditel/Kverneland-brand-Russia.png" alt="">
+              </span> 
+            </div>
+            <div class="hero-number-back">03</div>  
+            <div class="hero-number">03</div> 
+          </li>
+          <li>
+            <div class="img-hero-background">
+              <span>
+                <img src="https://gvarta.com/upload/webp/100/upload/medialibrary/3f9/11dw5x4gzevsnbfmkals7e7grwljtn7q.webp" alt="">
+              </span> 
+              <span>
+                <img src="https://avatars.mds.yandex.net/get-altay/11385489/2a0000018d2121cf5f003e167471a3bd14d1/L_height" alt="">
+              </span> 
+              <span>
+                <img src="https://amacoint.com/wp-content/uploads/2017/06/Servisni_ingenery_kompaniyi_AMACO_Ukraina_2.jpg" alt="">
+              </span> 
+              <span>
+                <img src="https://agromester.md/assets/images/stories/ari/seminar-jd/johndeere-tractors-seminar.jpg" alt="">
+              </span> 
+            </div> 
+            <div class="hero-number-back">04</div> 
+            <div class="hero-number">04</div> 
+          </li>
+        </ul>
+      </div> 
+  
+
+
+    <div class="container_info"> 
+        <img src="IMG/---.jpg" alt="">
+
+
+        <div class="dostavka">
+            <div class="inline">
+            <div class="zagolovok"><p><b>Большой выбор</b></p></div>
+             </div>
+            <div class="text"><p>Вы найдёте всё что вам нужно, у нас есть все виды сельскохозяйственной техники и оборудования</p></div>
+        </div>
+
+        <div class="vozvrat">
+             <div class="inline">
+            <div class="zagolovok"><p><b>Возврат средств</b></p></div>
+            </div>
+            <div class="text"><p>Мы вернём вам деньги если товар не подошёл или имел какие-либо дефекты</p></div>        
+        </div>
+
+        <div class="oplata">
+            <div class="inline">
+            <div class="zagolovok"><p><b>Гарантия 10 лет<b></p></div>
+            </div>
+            <div class="text"><p>Наша компания предоставляет своим клиентам гарантию на срок до 10 лет </p></div>        
+        </div>
+
+    </div>
+      
+</div>
+
+
+    <div class="container_title">
+        <h1>Ассортимент</h1>
+    </div>
+
+    <div class="container_towary" id="KATALOG">
+        
+     
+    <div class="towar">
+            <article class="card">
+                <img
+                  class="card__background"
+                  src="https://kronos5.ru/upload/ammina.optimizer/jpg-webp/q80/upload/iblock/fdf/fdf4f91de3deef033aceaac0109763db.webp"
+                  alt="_"
+                  width="500"
+                  height="500"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Самоходная техника</h2>
+                    <p class="card__description">
+                      Тракторы, комбайны
+                    </p>
+                  </div>
+                  <a href="index2.html"><button class="card__button">Каталог</button></a>
+                </div>
+              </article> 
+</div>
+ <div class="towar">
+              <article class="card">
+                <img
+                  class="card__background"
+                  src="https://almaztd.ru/upload/iblock/ac9/%D0%9F%D0%9E%D0%9D-4+1%20(4).jpg"
+                  alt="_"
+                  width="500"
+                  height="500"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Вспомогательные агрегаты</h2>
+                    <p class="card__description">
+                      Плуги, бороны, лущильники, сеялки
+                    </p>
+                  </div>
+                  <a href="index3.html"><button class="card__button">Каталог</button></a>
+                </div>
+              </article>
+</div> 
+
+<div class="towar">
+              <article class="card">
+                <img
+                  class="card__background"
+                  src="https://acc-nn.com/wp-content/uploads/2023/08/skrinshot-08-08-2023-142745.jpg"
+                  alt="_"
+                  width="500"
+                  height="500"
+                />
+                <div class="card__content | flow">
+                  <div class="card__content--container | flow">
+                    <h2 class="card__title">Запчасти и комплектующие</h2>
+                    <p class="card__description">
+                      Узлы, диски, шкивы, лемехи, пружины
+                    </p>
+                  </div>
+                  <a href="index4.html"><button class="card__button">Каталог</button></a>
+                </div>
+              </article>
+</div>     
+</div>
+
+    <script src="main.js"></script>
+</div>        
+</div>
+
+<div class="footer"> 
+
+  <div class="row">
+  <ul>
+  <li><a href="#KATALOG">Главная</a></li>
+  <li><a href="DOSTAVKA_I_OPLATA.html">Доставка и оплата</a></li>
+  <li><a href="O_MAGAZINE.html">О нас</a></li>
+  <li><a href="KONTAKTY.html">Контакты</a></li>
+  </ul>
+  </div>
+  
+
+  </div>
+  </footer>
+</body>
+</html>
